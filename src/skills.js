@@ -5,7 +5,7 @@ function Skills() {
     return (
         <div className="container">
         <div className="box">
-          <h2 style={{fontstyle: 'oblique', fontweight: '700', color:'black'}}>Frontend</h2>
+          <h2 style={{fontstyle: 'oblique', fontweight: '700',  color:'black'}}>Frontend</h2>
          <ul>
         
        <box-icon name='star' type='solid' color='#b8c119'  title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
@@ -47,7 +47,7 @@ function Skills() {
         
          </ul>
          <ul>  
-         <box-icon name='star' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
+         <box-icon name='star-fulled' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
          <span style={{fontsize: 'medium', color:'Black'}}>SQL</span>
         
          </ul>
