@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(45deg,  #ede0dbb1, #e6c8d4, #ede0dbb1, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: GradientBackground 15s ease infinite;
+    -moz-animation: GradientBackground 15s ease infinite;
+    animation: GradientBackground 15s ease infinite;
+  }
+  
+  @-webkit-keyframes GradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @-moz-keyframes GradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes GradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+
+    
+  }
+  floating-image {
+    float: right;
+    
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Ajusta los márgenes según tus necesidades */
+  }
+
+  @keyframes mover {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px); }
+  }
+  
+  .mover {
+    top:0px;
+    animation: mover 10s infinite alternate;
+  }
+  .modal {
+    display: block;
+    position: fixed;
+    
+    z-index: 1050;
+    top: 50%;
+    left: 50%;
+    background-image: linear-gradient(to left, #c48edb, #ffffff);
+    max-width: 800px;
+    
+    max-height: 500px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    
+    transform: translate(-50%, -50%);
+  
+
+
+  }
+  
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+ 
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .modal {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    overflow: auto;
+    justify-content: center;
+    align-items: 'center';
+  }
+ 
+  .modal-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .colDescargaCV {
+ 
+ 
+    font-size: medium;
+    font-style: oblique;
+    color: black;
+    align-content: center;
+}
+ 
+  .textShadow {
+    box-shadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' 
+  } 
+  .titulo-derecha {
+    top: 0;
+    text-align: right;
+    color:'black';
+    font-Style:  oblique ;
+    right: 0px;
+     font-Weight:  700 
+  }
