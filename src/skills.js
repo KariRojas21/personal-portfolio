@@ -1,36 +1,37 @@
 import React from 'react';
+ 
+ 
 import './skills.css';
  
 function Skills() {
     return (
         <div className="container">
         <div className="box">
-          <h2 style={{fontstyle: 'oblique', fontweight: '700',  color:'black'}}>Frontend</h2>
+          <h2 style={{fontstyle: 'oblique', fontweight: '700', color:'black'}}>Frontend</h2>
          <ul>
-        
-       <box-icon name='star' type='solid' color='#b8c119'  title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
-         <span style={{fontsize: 'medium', color:'Black'}}>HTML</span>
-         </ul>
-         <ul>  
-         <box-icon name='star' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
+        <li> 
+        <span style={{fontsize: 'medium', color:'Black'}}>HTML</span>
+        <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
+        </li>
+     <li> 
          <span style={{fontsize: 'medium', color:'Black'}}>CSS</span>
-        
-         </ul>
-         <ul>  
-         <box-icon name='star' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
-         <span style={{fontsize: 'medium', color:'Black'}}>Bootstrap</span>
-        
-         </ul>
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
+         </li>
+        <li>  
+          <span style={{fontsize: 'medium', color:'Black'}}>Bootstrap</span>
+          <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
+         </li>
+         
 
-         <ul>  
-         <box-icon name='star-half' type='solid' color='#b8c119' title='Intermediate' ></box-icon>&nbsp;&nbsp;&nbsp;
+         <li>  
          <span style={{fontsize: 'medium', color:'Black'}}>React</span>
-        
-         </ul>
-         <ul>  
-         <box-icon name='star' color='#b8c119' title='Basic'></box-icon>&nbsp;&nbsp;&nbsp;
-         <span style={{fontsize: 'medium', color:'Black'}} >JavaScript</span>
-        
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Intermediate  </p>
+         </li>
+       
+          <li> 
+          <span style={{fontsize: 'medium', color:'Black'}} >JavaScript</span>
+          <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Intermediate  </p>
+         </li>
          </ul>
         </div>
         <div className="box">
@@ -38,32 +39,37 @@ function Skills() {
       
         
 <ul>
-          <box-icon name='star' type='solid' color='#b8c119'  title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
+ 
+          <li><box-icon name='star-filled' type='solid' color='#b8c119'  title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
          <span style={{fontsize: 'medium', color:'Black'}}>C#</span>
-         </ul> 
-         <ul>  
-         <box-icon name='star' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
+        <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
+         </li>
+
+         <li>
+         <box-icon name='star-filled' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
          <span style={{fontsize: 'medium', color:'Black'}}>MVC</span>
-        
-         </ul>
-         <ul>  
-         <box-icon name='star-fulled' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
+        </li>
+      <li>  
+         <box-icon name='star-filled' type='solid' color='#b8c119' title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
          <span style={{fontsize: 'medium', color:'Black'}}>SQL</span>
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
         
-         </ul>
-         <ul>
-          <box-icon name='star' type='solid' color='#b8c119'  title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
+        </li>
+        <li>  
+          <box-icon name='star-fill' type='solid' color='#b8c119'  title='Advanced'></box-icon>&nbsp;&nbsp;&nbsp;
          <span style={{fontsize: 'medium', color:'Black'}}>Visual Basic Application</span>
-         </ul>
-         <ul>  
-         <box-icon name='star-half' type='solid' color='#b8c119' title='Intermediate' ></box-icon>&nbsp;&nbsp;&nbsp;
-         <span style={{fontsize: 'medium', color:'Black'}}>MYSQL</span>
-        
-         </ul>
-         <ul>  
-         <box-icon name='star' color='#b8c119' title='Basic'></box-icon>&nbsp;&nbsp;&nbsp;
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Advanced  </p>
+        </li>
+         <li>  
+         <span style={{fontsize: 'medium', color:'Black',textAlign:'center'}}>MYSQL</span>
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Intermediate  </p>
+        </li>
+         <li>  
          <span style={{fontsize: 'medium', color:'Black'}}>PHP</span>
+         <p style= {{ fontStyle: 'normal', fontWeight: '600' ,   fontSize: 'small' , textAlign:'center'}}>Basic  </p>
         
+         </li>
          </ul>
 
 
